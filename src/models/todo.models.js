@@ -17,3 +17,6 @@ const todoSchema = new mongoose.Schema(
     versionKey: false,
   }
 );
+
+
+module.exports = mongoose.model("todo", todoSchema);
